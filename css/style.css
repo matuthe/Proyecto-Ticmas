@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sofia+Sans:ital,wght@1,200&family=Unbounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sofia+Sans:ital,wght@1,200&family=Solitreo&family=Unbounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+
+*, ::before, ::after
+{
+	margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#div-content
+{
+	width: 100%;
+    display: flex;
+
+}
+
+#borde
+{
+    background-color: #154c79;
+    padding: 20px;
+    width: 20%;
+}
+
+#derecho
+{
+	background-color: lightblue;
+	width: inherit;
+}
+
+#correo, #link, #telefono {
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+
+#info, #domicilio, #nacimiento {
+    color: black;
+    font-family: 'Solitreo', cursive;
+    font-size: 25px;
+}
+
+#datos{
+    width: auto;
+    text-align: center;
+}
+
+#nombre,#profesion {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#apellido
+{
+    text-align: center;
+    font-family: 'Unbounded', cursive;
+    font-style: italic;
+    color: black;
+}
+
+
+
+#fotoDePerfil {
+	padding: 50px 10px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: block;
+}
+
+#infoContacto, #infoPersonal {
+    display: none;
+    text-align: center;
+    margin: 15px;
+}
+
+
+#infoPersonal p{
+    padding: 10px;
+}
+
+
+#botonContacto, #botonPersonal {
+    border-radius: 5px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    display: flex;
+    margin: 15px auto;
+    
+}
+
+#columns-conteiner
+{
+    display: flex;
+}
+
+#columns-conteiner ul,li {
+    list-style: none;
+    font-style: italic;
+}
+
+
+#columna1, #columna2{
+    padding: 20px;
+
+}
+
+#columna1{
+    margin-left: auto;
+}
+
+#columna2
+{
+    margin-right: auto;
+}
+
+#infoContacto img:hover{
+        
+    transition: transform 350ms;
+    transform: translate(0px, -10px);
+    background-color: lightsteelblue;
+    border-radius: 15px;
+}
+
+#derecho p, li{
+
+    padding: 5px;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#divFormacion ul{
+    list-style: none;
+   text-align: center;
+
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}

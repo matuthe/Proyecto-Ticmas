@@ -1,0 +1,68 @@
+@media (max-width: 768px) /*cel*/ {
+
+    #div-content{
+        display: block;
+        width: fit-content;
+    }
+    #borde, #derecho{
+        padding: 0px;
+        margin: 0px;
+        width:100%;
+    }
+    #divFoto{
+        padding: 5px;
+        margin: 0px;
+    }
+    
+    #fotoDePerfil {
+        width: 200px;
+        height: 200px;
+    }
+    #botonContacto,#botonPersonal{
+        display: none;
+    }
+    #infoContacto, #infoPersonal {
+        display: block;
+       padding-bottom: 30px;
+       margin: 0px;
+    }
+}
+
+@media (min-width: 769px) /*tab*/ {
+    #apellido{
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+
+    #profesion,#nombre{
+        font-size: 25px;
+    }
+
+    #derecho{
+        font-size: 20px;
+    }
+    #botonContacto, #botonPersonal {
+        font-size: 17px;
+    }
+}
+
+
+@media (min-width: 1025px) /*pc*/
+{
+    #apellido{
+        font-size: 70px;
+        margin-bottom: 50px;
+    }
+    #profesion,#nombre{
+        font-size: 35px;
+    }
+    #derecho{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    #botonContacto, #botonPersonal {
+        font-size: 25px;
+    }
+}
