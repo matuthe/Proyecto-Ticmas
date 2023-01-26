@@ -1,5 +1,15 @@
 @media (max-width: 768px) /*cel*/ {
 
+    #nombre,#profesion{
+        font-size: 40px;
+
+    }
+
+    #apellido {
+        padding: 30px;
+        font-size: 50px;
+    }
+
     #div-content{
         display: block;
         width: fit-content;
@@ -28,10 +38,10 @@
     }
 }
 
-@media (min-width: 769px) /*tab*/ {
+@media (min-width: 768px) /*tab*/ {
     #apellido{
         margin-bottom: 20px;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #profesion,#nombre{
@@ -47,7 +57,7 @@
 }
 
 
-@media (min-width: 1025px) /*pc*/
+@media (min-width: 1024px) /*pc*/
 {
     #apellido{
         font-size: 70px;
