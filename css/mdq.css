@@ -1,5 +1,9 @@
 @media (max-width: 768px) /*cel*/ {
 
+    #datos {
+        font-size: 40px;
+    }
+
     #div-content{
         display: block;
         width: fit-content;
